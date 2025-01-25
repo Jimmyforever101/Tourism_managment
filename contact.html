@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - JimmyForever Tours</title>
+    <link rel="icon" href="logo1.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/interactivity.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text color */
+        }
+
+        header {
+            background-color: #1e1e1e; /* Slightly lighter dark shade */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e1e; /* Dark background for form */
+            border-radius: 5px;
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #ffffff; /* Light text color */
+        }
+
+        .form input, .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #333; /* Dark input background */
+            color: #ffffff; /* Light text color */
+            border: none;
+            border-radius: 5px;
+        }
+
+        .form button {
+            padding: 10px 20px;
+            background-color: #2a28; /* Dark button background */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1e1e1e; /* Slightly lighter dark shade */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo1.jpeg" alt="JimmyForever Tours Logo" style="width: 150px; height: auto;">
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 JimmyForever Tours. All rights reserved.</p>
+    </footer>
+</body>
+</html>
